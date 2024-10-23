@@ -1,0 +1,165 @@
+ul {
+    padding-inline-start: 0 !important;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+/* ヘッダー */
+.header.mainvisual.about.works {
+    max-width: 980px;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    align-items: center;
+    margin: 20px auto;
+    padding: 0 100px;
+}
+
+.home {
+    font-size: 34px;
+    text-decoration-line: none;
+    color: #000;
+    border: 1px solid #000;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    font-size: 34px;
+}
+li > a {
+    text-decoration-line: none;
+    color: #000;
+    margin: 0 20px;
+    font-weight: bold;
+}
+/* メイン画像 */
+.mainvisual {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* About*/
+#about {
+    text-align: center;
+    padding: 20px;
+    font-size: 34px;
+}
+.about_main {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.human {
+    border-radius: 140px;
+}
+   
+.name {
+    font-size: 24px;
+}
+
+/* Works */
+#works {
+    text-align: center;
+    padding: 20px;
+    font-size: 34px;
+}
+.works_picture {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.sample {
+    width: 25%;
+    margin: 0 10px;
+    
+}
+.sample > p {
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* フッター */
+footer > p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
+
+/* スマホ画面ver */
+@media screen and (max-width: 767px) {
+    .header_wrapper {
+        display: flex;
+        padding: 10px;
+    }
+
+    .header.mainvisual.about.works.sample {
+        max-width: 375px;
+    }
+
+    .home {
+        font-size: 20px;
+        text-align: center;
+
+    }
+    #logo {
+       
+    }
+    .menu {
+        font-size: 21px;
+        align-items: center;
+    }
+    .menu li {
+        margin: 10px 0;
+    }
+    #about #works {
+        font-size: 28px;
+        padding: 20px 0;
+    }
+    .about_main {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+    /* works */
+    .works_picture {
+        display: block;
+        text-align: center;
+    
+    }
+
+    .sample {
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .sanple > img{
+
+    }
+    .sample > p {
+        font-size: 18px;
+        text-align: center;
+    } 
+    .footer > p {
+        padding-top: 50px;
+    }
+
+
+
+}

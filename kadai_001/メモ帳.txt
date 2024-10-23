@@ -1,0 +1,38 @@
+<section class="works">
+        <h2>Works</h2>
+        <div class="works-inner">
+            <div class="sample">
+                <img class="picture" src="imgs\Frame 1.png" alt="新潟の日本海">
+                <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+            </div>
+            <div class="sample">
+                <img class="picture" src="imgs\Frame 1 (1).png" alt="長野県の御嶽山">
+                <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+            </div>
+            <div class="sample">
+                <img class="picture" src="imgs\Frame 1 (2).png" alt="京都の町並み">
+                <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+            </div>
+	</div>
+</section>
+
+
+
+
+
+/* 写真紹介 */
+.works-inner {
+    display: flex;
+    justify-content: center;
+}
+.sample {
+    padding-bottom: 60px;
+    width: 25%;
+}
+.picture {
+    padding: 0 20px;
+}
+ p {
+    padding: 0 20px;
+    font-size: 18px;
+ }
